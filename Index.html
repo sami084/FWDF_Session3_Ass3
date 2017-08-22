@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+			<head>
+			<title> Assignment-Dropdown Button</title>
+			<style>
+		
+			*{ font-family:Georgia, "Times New Roman", Times, serif;
+		  	   }
+		
+			/* defined Style for the Dropdown Button */	
+			.dropbutton {
+    			background-color: mediumblue;	
+    			color: white;
+    			width: 150px;
+			border: none;
+			cursor: pointer;
+			padding: 16px;
+    			font-size: 16px;
+    			 
+			}
+
+			/* The parent <div> box, position defined as relative */
+			.dropdown {
+			position: relative;
+			display: inline-block;
+			}
+			
+			/* Style defined for child <div> box and its postion is relative  */
+			.dropdown-content {
+    			display: none;
+   			position: absolute;
+    			background-color:orange;
+    			min-width: 150px;
+    		
+			}
+
+			/* Links inside the dropdown */
+			.dropdown-content a {
+    			color: White;
+    			padding: 12px 16px;
+    			text-decoration: none;
+    			display: block;
+			}
+			/* Change color of dropdown links on hover */
+			.dropdown-content a:hover {
+			background-color: peru;
+			}
+
+
+			/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content {
+    			display: block;
+			}
+
+			/* Change the background color of the dropdown button when the dropdown content is shown */
+			.dropdown:hover .dropbutton {
+    			background-color:midnightblue;
+			}
+			</style>
+			</head>
+            
+			<body>
+           			<center>
+			<h1> Assignment-Dropdown Button </h1>
+			<p>To see the drop button, please move the mouse over it.</p>
+
+			<div class="dropdown">
+  			<button class="dropbutton">Dropdown Button</button>
+ 	 		<div class="dropdown-content">
+            
+    			<a href="https://acadgild.com/about-us" target="_blank">Acadgild</a>
+   			<a href="https://acadgild.com/how-it-works" target="_blank">How it Works</a>
+    			<a href="https://acadgild.com/corporate-training-program" target="_blank">Corporate Training</a>
+     			<a href= "https://acadgild.com/contact-us" target="_blank">Contact Us</a>
+            
+  			</div>
+			</div>
+			</center>
+        		                    </body>
+</html>
